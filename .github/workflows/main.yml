@@ -23,7 +23,7 @@ jobs:
 # 如果是使用extended版本的務必取消註解。
 
       - name: Build
-        run: hugo --minify
+        run: hugo --minify #這邊輸入要執行的hugo命令 ex:hugo -D
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
