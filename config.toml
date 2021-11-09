@@ -1,9 +1,9 @@
-baseURL = "http://example.org/"
+baseURL = "https://cycsd.github.io/"
 # [en, zh-cn, fr, ...] determines default content language
 defaultContentLanguage = "en"
 # language code
 languageCode = "en"
-title = "My New Hugo Site"
+title = "White Code"
 
 # Change the default theme to be use when building the site with Hugo
 theme = "DoIt"
