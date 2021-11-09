@@ -16,7 +16,7 @@ git init git 才會開始幫你管理檔案備份喔! 此指令一個檔案夾�
 備份指令(git commit) git add test.html git commit -m &#34;1/1號，將test.html 文件交由git控管&#34; 代碼解釋 git add ... ⇒ 勾選這次要備份的文件
 git commit -m &#34;...&#34; ⇒ 備份，並為這次的備份寫上備註，-m的m代表message的意思。">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://cycsd.github.io/posts/git-b279ad6cc87143ffad4bbc8cf8078934/"><meta property="article:section" content="posts">
+<meta property="og:url" content="https://cycsd.github.io/posts/git/"><meta property="article:section" content="posts">
 <meta property="article:published_time" content="2021-11-09T21:16:22+08:00">
 <meta property="article:modified_time" content="2021-11-09T21:16:22+08:00">
 <meta name=twitter:card content="summary">
@@ -36,9 +36,9 @@ git commit -m &#34;...&#34; ⇒ 備份，並為這次的備份寫上備註，-m�
 <meta name=apple-mobile-web-app-title content="White Code">
 <meta name=theme-color content="#f8f8f8"><link rel="shortcut icon" type=image/x-icon href=/favicon.ico>
 <link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png>
-<link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png><link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png><link rel=canonical href=https://cycsd.github.io/posts/git-b279ad6cc87143ffad4bbc8cf8078934/><link rel=prev href=https://cycsd.github.io/posts/first_post/><link rel=stylesheet href=/lib/normalize/normalize.min.css><link rel=stylesheet href=/css/style.min.css><link rel=preload as=style onload="this.onload=null,this.rel='stylesheet'" href=/lib/fontawesome-free/all.min.css>
+<link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png><link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png><link rel=canonical href=https://cycsd.github.io/posts/git/><link rel=prev href=https://cycsd.github.io/posts/first_post/><link rel=stylesheet href=/lib/normalize/normalize.min.css><link rel=stylesheet href=/css/style.min.css><link rel=preload as=style onload="this.onload=null,this.rel='stylesheet'" href=/lib/fontawesome-free/all.min.css>
 <noscript><link rel=stylesheet href=/lib/fontawesome-free/all.min.css></noscript><link rel=preload as=style onload="this.onload=null,this.rel='stylesheet'" href=/lib/animate/animate.min.css>
-<noscript><link rel=stylesheet href=/lib/animate/animate.min.css></noscript><script type=application/ld+json>{"@context":"http://schema.org","@type":"BlogPosting","headline":"Git","inLanguage":"en","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/cycsd.github.io\/posts\/git-b279ad6cc87143ffad4bbc8cf8078934\/"},"genre":"posts","wordcount":699,"url":"https:\/\/cycsd.github.io\/posts\/git-b279ad6cc87143ffad4bbc8cf8078934\/","datePublished":"2021-11-09T21:16:22+08:00","dateModified":"2021-11-09T21:16:22+08:00","publisher":{"@type":"Organization","name":"Author"},"author":{"@type":"Person","name":"Author"},"description":""}</script></head>
+<noscript><link rel=stylesheet href=/lib/animate/animate.min.css></noscript><script type=application/ld+json>{"@context":"http://schema.org","@type":"BlogPosting","headline":"Git","inLanguage":"en","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/cycsd.github.io\/posts\/git\/"},"genre":"posts","wordcount":699,"url":"https:\/\/cycsd.github.io\/posts\/git\/","datePublished":"2021-11-09T21:16:22+08:00","dateModified":"2021-11-09T21:16:22+08:00","publisher":{"@type":"Organization","name":"Author"},"author":{"@type":"Person","name":"Author"},"description":""}</script></head>
 <body header-desktop header-mobile><script type=text/javascript>function setTheme(a){document.body.setAttribute('theme',a)}function saveTheme(a){window.localStorage&&localStorage.setItem('theme',a)}function getMeta(b){const a=document.getElementsByTagName('meta');for(let c=0;c<a.length;c++)if(a[c].getAttribute('name')===b)return a[c];return''}if(window.localStorage&&localStorage.getItem('theme')){let a=localStorage.getItem('theme');a==='light'||a==='dark'||a==='black'?setTheme(a):window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches?setTheme('dark'):setTheme('light')}else''==='light'||''==='dark'||''==='black'?(setTheme(''),saveTheme('')):(saveTheme('auto'),window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches?setTheme('dark'):setTheme('light'));let metaColors={light:'#f8f8f8',dark:'#252627',black:'#000000'};getMeta('theme-color').content=metaColors[document.body.getAttribute('theme')]</script>
 <div id=back-to-top></div>
 <div id=mask></div><div class=wrapper><header class=desktop id=header-desktop>
@@ -180,7 +180,7 @@ git commit -m &#34;...&#34; ⇒ 備份，並為這次的備份寫上備註，-m�
 <p><a href=https://www.notion.so/UI-_-d3e07877097341b4a24ea5a8cecef905 target=_blank rel="noopener noreffer">UI介紹_配合指令</a></p>
 <h1 id=安裝設定>安裝設定</h1>
 <p>所有的git指令皆是要打在Git Bash裡(此為安裝完Git就會有的東西)</p>
-<p><img class=lazyload data-src=Git%20b279ad6cc87143ffad4bbc8cf8078934/GitBash.png data-srcset="Git%20b279ad6cc87143ffad4bbc8cf8078934/GitBash.png, Git%20b279ad6cc87143ffad4bbc8cf8078934/GitBash.png 1.5x, Git%20b279ad6cc87143ffad4bbc8cf8078934/GitBash.png 2x" data-sizes=auto alt=Git%20b279ad6cc87143ffad4bbc8cf8078934/GitBash.png title=GitBash.png></p>
+<p><img class=lazyload data-src=Git%20b279ad6cc87143ffad4bbc8cf8078934/GitBash.png data-srcset="/posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/GitBash.png, Git%20b279ad6cc87143ffad4bbc8cf8078934/GitBash.png 1.5x, /posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/GitBash.png 2x" data-sizes=auto alt=/posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/GitBash.png title=GitBash.png></p>
 <p>需先設定本機的使用者名稱與email</p>
 <div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>git config --global user.name <span class=s2>&#34;君の名は&#34;</span>
 git config --global user.email <span class=s2>&#34;你的email&#34;</span>
@@ -209,11 +209,11 @@ git commit -m <span class=s2>&#34;1/1號，將test.html 文件交由git控管&#3
 <div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>git add test.html
 git commit -m <span class=s2>&#34;1/2號，編輯test.html，新增一些段落&#34;</span>
 </code></pre></div><p>由git flow的圖形來看會像是這樣</p>
-<p><img class=lazyload data-src=Git%20b279ad6cc87143ffad4bbc8cf8078934/master.png data-srcset="Git%20b279ad6cc87143ffad4bbc8cf8078934/master.png, Git%20b279ad6cc87143ffad4bbc8cf8078934/master.png 1.5x, Git%20b279ad6cc87143ffad4bbc8cf8078934/master.png 2x" data-sizes=auto alt=Git%20b279ad6cc87143ffad4bbc8cf8078934/master.png title=master.png></p>
+<p><img class=lazyload data-src=Git%20b279ad6cc87143ffad4bbc8cf8078934/master.png data-srcset="/posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/master.png, Git%20b279ad6cc87143ffad4bbc8cf8078934/master.png 1.5x, /posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/master.png 2x" data-sizes=auto alt=/posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/master.png title=master.png></p>
 <p>這裡我在寫commit message的時候都有將日期寫上，但實際操作是可以不用的，因為git會自動幫我們紀錄我們是何時備份的，我們可以使用</p>
 <div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>git log
 </code></pre></div><p>來幫助我們查看每一個commit到底記錄了甚麼</p>
-<p><img class=lazyload data-src=Git%20b279ad6cc87143ffad4bbc8cf8078934/git_log%E7%95%AB%E9%9D%A2.png data-srcset="Git%20b279ad6cc87143ffad4bbc8cf8078934/git_log%E7%95%AB%E9%9D%A2.png, Git%20b279ad6cc87143ffad4bbc8cf8078934/git_log%E7%95%AB%E9%9D%A2.png 1.5x, Git%20b279ad6cc87143ffad4bbc8cf8078934/git_log%E7%95%AB%E9%9D%A2.png 2x" data-sizes=auto alt=Git%20b279ad6cc87143ffad4bbc8cf8078934/git_log%E7%95%AB%E9%9D%A2.png title="git log畫面.png"></p>
+<p><img class=lazyload data-src=Git%20b279ad6cc87143ffad4bbc8cf8078934/git_log%E7%95%AB%E9%9D%A2.png data-srcset="/posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/git_log%E7%95%AB%E9%9D%A2.png, Git%20b279ad6cc87143ffad4bbc8cf8078934/git_log%E7%95%AB%E9%9D%A2.png 1.5x, /posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/git_log%E7%95%AB%E9%9D%A2.png 2x" data-sizes=auto alt=/posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/git_log%E7%95%AB%E9%9D%A2.png title="git log畫面.png"></p>
 <p>這邊可以看到除了備份的時間和當初寫的備份描述外，還可以看到每個commit後面都接了一串英數混合字串，這個是git自動為每個commit命名的編號(使用SHA-1得到)，當我們要指定還原到哪一次備份的時候就需要用到這些編號了。</p>
 <h3 id=還原指令git-checkout>還原指令(git checkout)</h3>
 <div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>git checkout 1849273139bde9189f835b03f007654157aef465
@@ -225,25 +225,25 @@ git commit -m <span class=s2>&#34;1/2號，編輯test.html，新增一些段落&
 <div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>git checkout C0
 </code></pre></div><p>實際操作這樣寫是不會成功的，除非剛好有個版次編號開頭叫C0</p>
 <p>git flow圖示長這樣</p>
-<p><img class=lazyload data-src=Git%20b279ad6cc87143ffad4bbc8cf8078934/%E9%82%84%E5%8E%9F.png data-srcset="Git%20b279ad6cc87143ffad4bbc8cf8078934/%E9%82%84%E5%8E%9F.png, Git%20b279ad6cc87143ffad4bbc8cf8078934/%E9%82%84%E5%8E%9F.png 1.5x, Git%20b279ad6cc87143ffad4bbc8cf8078934/%E9%82%84%E5%8E%9F.png 2x" data-sizes=auto alt=Git%20b279ad6cc87143ffad4bbc8cf8078934/%E9%82%84%E5%8E%9F.png title=還原.png></p>
+<p><img class=lazyload data-src=Git%20b279ad6cc87143ffad4bbc8cf8078934/%E9%82%84%E5%8E%9F.png data-srcset="/posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/%E9%82%84%E5%8E%9F.png, Git%20b279ad6cc87143ffad4bbc8cf8078934/%E9%82%84%E5%8E%9F.png 1.5x, /posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/%E9%82%84%E5%8E%9F.png 2x" data-sizes=auto alt=/posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/%E9%82%84%E5%8E%9F.png title=還原.png></p>
 <p>圖示中的HEAD代表的是當前文件版本，更詳細的描述會在待會的貼紙功能介紹。</p>
 <p>做完checkout步驟後就已經將檔案還原至1/1的版本了!</p>
 <h1 id=進一步功能貼紙功能>進一步功能:貼紙功能</h1>
 <p>備份還原講完了，那還有甚麼需要講的? 欸~如果git只有備份還原的功能的話，是不會成為現在最受歡迎的版控軟體的， 這邊在進一步的為大家介紹他的貼紙功能，(貼紙是為了方便理解所稱呼的，實際的運作原理大家可以再多看其他人寫的git介紹)。</p>
 <p>相信從上面的介紹中的git flow圖例展示中大家都有發現除了代表不同版本文件的圓形(C0、C1)和版本描述外，圖例中還有master、HEAD兩個圖示，你可以將它看成像是這個東西</p>
-<p><img class=lazyload data-src=Git%20b279ad6cc87143ffad4bbc8cf8078934/3M%E6%A8%99%E7%B1%A4%E8%B2%BC.png data-srcset="Git%20b279ad6cc87143ffad4bbc8cf8078934/3M%E6%A8%99%E7%B1%A4%E8%B2%BC.png, Git%20b279ad6cc87143ffad4bbc8cf8078934/3M%E6%A8%99%E7%B1%A4%E8%B2%BC.png 1.5x, Git%20b279ad6cc87143ffad4bbc8cf8078934/3M%E6%A8%99%E7%B1%A4%E8%B2%BC.png 2x" data-sizes=auto alt=Git%20b279ad6cc87143ffad4bbc8cf8078934/3M%E6%A8%99%E7%B1%A4%E8%B2%BC.png title=3M標籤貼.png></p>
+<p><img class=lazyload data-src=Git%20b279ad6cc87143ffad4bbc8cf8078934/3M%E6%A8%99%E7%B1%A4%E8%B2%BC.png data-srcset="/posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/3M%E6%A8%99%E7%B1%A4%E8%B2%BC.png, Git%20b279ad6cc87143ffad4bbc8cf8078934/3M%E6%A8%99%E7%B1%A4%E8%B2%BC.png 1.5x, /posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/3M%E6%A8%99%E7%B1%A4%E8%B2%BC.png 2x" data-sizes=auto alt=/posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/3M%E6%A8%99%E7%B1%A4%E8%B2%BC.png title=3M標籤貼.png></p>
 <h2 id=git預設給你兩張標籤貼masterhead>Git預設給你兩張標籤貼:master、HEAD</h2>
 <p>先解釋HEAD貼紙的功用</p>
 <p>HEAD: Git在你目前使用的文件版本上貼了一個HEAD貼紙， 告訴你目前是在使用這個版本喔!<code>也就是你checkout指定了哪個文件HEAD就會貼到那個文件上。</code></p>
 <p>讓我們用這個思路來看之前的備份還原是怎麼操作的</p>
 <h2 id=如果只是備份>如果只是備份</h2>
 <div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>git add test.htmlgit commit -m <span class=s2>&#34;1/2號，編輯test.html，新增一些段落&#34;</span>
-</code></pre></div><p><img class=lazyload data-src=Git%20b279ad6cc87143ffad4bbc8cf8078934/master%201.png data-srcset="Git%20b279ad6cc87143ffad4bbc8cf8078934/master%201.png, Git%20b279ad6cc87143ffad4bbc8cf8078934/master%201.png 1.5x, Git%20b279ad6cc87143ffad4bbc8cf8078934/master%201.png 2x" data-sizes=auto alt=Git%20b279ad6cc87143ffad4bbc8cf8078934/master%201.png title=master.png></p>
+</code></pre></div><p><img class=lazyload data-src=Git%20b279ad6cc87143ffad4bbc8cf8078934/master%201.png data-srcset="/posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/master%201.png, Git%20b279ad6cc87143ffad4bbc8cf8078934/master%201.png 1.5x, /posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/master%201.png 2x" data-sizes=auto alt=/posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/master%201.png title=master.png></p>
 <p>每一次備份(commit)，Git會自動幫我們把當下選擇的標籤貼(master為我們目前選擇的標籤貼)和HEAD標籤貼貼到當前的版本上，master<em>中的</em>代表HEAD貼紙是貼在master這個貼紙上的，可以先看成有兩張貼紙master和Head貼在C1上。</p>
-<p><img class=lazyload data-src=Git%20b279ad6cc87143ffad4bbc8cf8078934/masterHEAD.png data-srcset="Git%20b279ad6cc87143ffad4bbc8cf8078934/masterHEAD.png, Git%20b279ad6cc87143ffad4bbc8cf8078934/masterHEAD.png 1.5x, Git%20b279ad6cc87143ffad4bbc8cf8078934/masterHEAD.png 2x" data-sizes=auto alt=Git%20b279ad6cc87143ffad4bbc8cf8078934/masterHEAD.png title=master&amp;amp;HEAD.png></p>
+<p><img class=lazyload data-src=Git%20b279ad6cc87143ffad4bbc8cf8078934/masterHEAD.png data-srcset="/posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/masterHEAD.png, Git%20b279ad6cc87143ffad4bbc8cf8078934/masterHEAD.png 1.5x, /posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/masterHEAD.png 2x" data-sizes=auto alt=/posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/masterHEAD.png title=master&amp;amp;HEAD.png></p>
 <h3 id=需要還原的時候>需要還原的時候</h3>
 <div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>git checkout C0
-</code></pre></div><p><img class=lazyload data-src=Git%20b279ad6cc87143ffad4bbc8cf8078934/%E9%82%84%E5%8E%9F%201.png data-srcset="Git%20b279ad6cc87143ffad4bbc8cf8078934/%E9%82%84%E5%8E%9F%201.png, Git%20b279ad6cc87143ffad4bbc8cf8078934/%E9%82%84%E5%8E%9F%201.png 1.5x, Git%20b279ad6cc87143ffad4bbc8cf8078934/%E9%82%84%E5%8E%9F%201.png 2x" data-sizes=auto alt=Git%20b279ad6cc87143ffad4bbc8cf8078934/%E9%82%84%E5%8E%9F%201.png title=還原.png></p>
+</code></pre></div><p><img class=lazyload data-src=Git%20b279ad6cc87143ffad4bbc8cf8078934/%E9%82%84%E5%8E%9F%201.png data-srcset="/posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/%E9%82%84%E5%8E%9F%201.png, Git%20b279ad6cc87143ffad4bbc8cf8078934/%E9%82%84%E5%8E%9F%201.png 1.5x, /posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/%E9%82%84%E5%8E%9F%201.png 2x" data-sizes=auto alt=/posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/%E9%82%84%E5%8E%9F%201.png title=還原.png></p>
 <p>可以看到git一樣會將Head貼在你目前所使用的版本文件上，告訴你目前在使用這個版本，然而master卻留在了原本的位置上。 這樣的好處在於當你想回到最新的版本的時候，原本應該是需要</p>
 <div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>git checkout C1
 </code></pre></div><blockquote>
@@ -264,16 +264,16 @@ git commit -m <span class=s2>&#34;1/2號，編輯test.html，新增一些段落&
 </code></pre></div><h3 id=代碼解釋-2>代碼解釋</h3>
 <p><code>git branch ...</code>=>創建一張名稱為…的貼紙</p>
 <p>git flow圖示長這樣</p>
-<p><img class=lazyload data-src=Git%20b279ad6cc87143ffad4bbc8cf8078934/git_branch.png data-srcset="Git%20b279ad6cc87143ffad4bbc8cf8078934/git_branch.png, Git%20b279ad6cc87143ffad4bbc8cf8078934/git_branch.png 1.5x, Git%20b279ad6cc87143ffad4bbc8cf8078934/git_branch.png 2x" data-sizes=auto alt=Git%20b279ad6cc87143ffad4bbc8cf8078934/git_branch.png title="git branch.png"></p>
+<p><img class=lazyload data-src=Git%20b279ad6cc87143ffad4bbc8cf8078934/git_branch.png data-srcset="/posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/git_branch.png, Git%20b279ad6cc87143ffad4bbc8cf8078934/git_branch.png 1.5x, /posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/git_branch.png 2x" data-sizes=auto alt=/posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/git_branch.png title="git branch.png"></p>
 <p>回到實際狀況的應用，我在1/3突然想到了一個新功能，但不確定能不能做出來，所以我可以先請git幫我新增一張名為newDesign的貼紙</p>
 <div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>git branch newDesign
 </code></pre></div><p>git flow</p>
-<p><img class=lazyload data-src=Git%20b279ad6cc87143ffad4bbc8cf8078934/newDesign.png data-srcset="Git%20b279ad6cc87143ffad4bbc8cf8078934/newDesign.png, Git%20b279ad6cc87143ffad4bbc8cf8078934/newDesign.png 1.5x, Git%20b279ad6cc87143ffad4bbc8cf8078934/newDesign.png 2x" data-sizes=auto alt=Git%20b279ad6cc87143ffad4bbc8cf8078934/newDesign.png title=newDesign.png></p>
+<p><img class=lazyload data-src=Git%20b279ad6cc87143ffad4bbc8cf8078934/newDesign.png data-srcset="/posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/newDesign.png, Git%20b279ad6cc87143ffad4bbc8cf8078934/newDesign.png 1.5x, /posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/newDesign.png 2x" data-sizes=auto alt=/posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/newDesign.png title=newDesign.png></p>
 <p>但這時候我其實還沒有告訴git我要選擇這張貼紙，因此你需要再使用</p>
 <div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>git checkout newDesign
 </code></pre></div><p>來告訴git我現在要選擇這張貼紙</p>
 <p>git flow</p>
-<p><img class=lazyload data-src=Git%20b279ad6cc87143ffad4bbc8cf8078934/SelectNewDesign.png data-srcset="Git%20b279ad6cc87143ffad4bbc8cf8078934/SelectNewDesign.png, Git%20b279ad6cc87143ffad4bbc8cf8078934/SelectNewDesign.png 1.5x, Git%20b279ad6cc87143ffad4bbc8cf8078934/SelectNewDesign.png 2x" data-sizes=auto alt=Git%20b279ad6cc87143ffad4bbc8cf8078934/SelectNewDesign.png title=SelectNewDesign.png></p>
+<p><img class=lazyload data-src=Git%20b279ad6cc87143ffad4bbc8cf8078934/SelectNewDesign.png data-srcset="/posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/SelectNewDesign.png, Git%20b279ad6cc87143ffad4bbc8cf8078934/SelectNewDesign.png 1.5x, /posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/SelectNewDesign.png 2x" data-sizes=auto alt=/posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/SelectNewDesign.png title=SelectNewDesign.png></p>
 <blockquote>
 <p>注意*從master跑到newDesign這張貼紙上了，
 代表你目前的HEAD貼紙是貼在newDesign上。
@@ -289,12 +289,12 @@ git commit <span class=s2>&#34;1/3號，新增功能1&#34;</span>
 <p>使用commit的時候git只會自動幫你把newDesign跟HEAD兩張貼紙貼到當前版本，</p>
 <p>master貼紙自然就留在了原本的版本上。</p>
 <p>git flow</p>
-<p><img class=lazyload data-src=Git%20b279ad6cc87143ffad4bbc8cf8078934/newDesignStep1.png data-srcset="Git%20b279ad6cc87143ffad4bbc8cf8078934/newDesignStep1.png, Git%20b279ad6cc87143ffad4bbc8cf8078934/newDesignStep1.png 1.5x, Git%20b279ad6cc87143ffad4bbc8cf8078934/newDesignStep1.png 2x" data-sizes=auto alt=Git%20b279ad6cc87143ffad4bbc8cf8078934/newDesignStep1.png title=newDesignStep1.png></p>
+<p><img class=lazyload data-src=Git%20b279ad6cc87143ffad4bbc8cf8078934/newDesignStep1.png data-srcset="/posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/newDesignStep1.png, Git%20b279ad6cc87143ffad4bbc8cf8078934/newDesignStep1.png 1.5x, /posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/newDesignStep1.png 2x" data-sizes=auto alt=/posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/newDesignStep1.png title=newDesignStep1.png></p>
 <p>假設1個月後，你終於發現這個功能根本做不出來，整個檔案死機了，這時候使用git的好處就出來了，你只要</p>
 <div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>git checkout master
 </code></pre></div><p>git就自動幫你把檔案復原成當初不會死機的版本了(還原到master標籤在的那個版本)</p>
 <p>git flow</p>
-<p><img class=lazyload data-src=Git%20b279ad6cc87143ffad4bbc8cf8078934/re-backToMaster.png data-srcset="Git%20b279ad6cc87143ffad4bbc8cf8078934/re-backToMaster.png, Git%20b279ad6cc87143ffad4bbc8cf8078934/re-backToMaster.png 1.5x, Git%20b279ad6cc87143ffad4bbc8cf8078934/re-backToMaster.png 2x" data-sizes=auto alt=Git%20b279ad6cc87143ffad4bbc8cf8078934/re-backToMaster.png title=re-backToMaster.png></p>
+<p><img class=lazyload data-src=Git%20b279ad6cc87143ffad4bbc8cf8078934/re-backToMaster.png data-srcset="/posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/re-backToMaster.png, Git%20b279ad6cc87143ffad4bbc8cf8078934/re-backToMaster.png 1.5x, /posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/re-backToMaster.png 2x" data-sizes=auto alt=/posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/re-backToMaster.png title=re-backToMaster.png></p>
 <p>那如果你根本是做出了一個超酷的功能呢?</p>
 <p>你不會想要將master標籤繼續留在那個又舊又老的版本上(畢竟你可能完全不會再用到那個版本了對吧!)，</p>
 <p>你可以這樣做</p>
@@ -305,7 +305,7 @@ git merge newDesign
 <p><code>git checkout master</code> =>選擇master標籤貼</p>
 <p><code>git merge newDesign</code>=>將master標籤貼貼到newDesign目前的版本上</p>
 <p>git flow</p>
-<p><img class=lazyload data-src=Git%20b279ad6cc87143ffad4bbc8cf8078934/merge.png data-srcset="Git%20b279ad6cc87143ffad4bbc8cf8078934/merge.png, Git%20b279ad6cc87143ffad4bbc8cf8078934/merge.png 1.5x, Git%20b279ad6cc87143ffad4bbc8cf8078934/merge.png 2x" data-sizes=auto alt=Git%20b279ad6cc87143ffad4bbc8cf8078934/merge.png title=merge.png></p>
+<p><img class=lazyload data-src=Git%20b279ad6cc87143ffad4bbc8cf8078934/merge.png data-srcset="/posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/merge.png, Git%20b279ad6cc87143ffad4bbc8cf8078934/merge.png 1.5x, /posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/merge.png 2x" data-sizes=auto alt=/posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/merge.png title=merge.png></p>
 <h1 id=那麼來聊聊為什麼要叫branch>那麼來聊聊為什麼要叫branch</h1>
 <p>實際上，一個專案裡面不會只有一個檔案，當使用git在控管一個專案的資料夾時，該專案資料夾可能會有好幾份文件，</p>
 <p>假設目前要新增一個功能，我是新增一個檔案去寫該功能的程式碼，而使用git做版控的時候，就需要以下指令</p>
@@ -313,7 +313,7 @@ git merge newDesign
 git add 檔案B
 git commit -m <span class=s2>&#34;新增檔案B&#34;</span>
 </code></pre></div><p>git flow</p>
-<p><img class=lazyload data-src=Git%20b279ad6cc87143ffad4bbc8cf8078934/%E6%96%B0%E5%A2%9E%E6%AA%94%E6%A1%88%EF%BC%A2.png data-srcset="Git%20b279ad6cc87143ffad4bbc8cf8078934/%E6%96%B0%E5%A2%9E%E6%AA%94%E6%A1%88%EF%BC%A2.png, Git%20b279ad6cc87143ffad4bbc8cf8078934/%E6%96%B0%E5%A2%9E%E6%AA%94%E6%A1%88%EF%BC%A2.png 1.5x, Git%20b279ad6cc87143ffad4bbc8cf8078934/%E6%96%B0%E5%A2%9E%E6%AA%94%E6%A1%88%EF%BC%A2.png 2x" data-sizes=auto alt=Git%20b279ad6cc87143ffad4bbc8cf8078934/%E6%96%B0%E5%A2%9E%E6%AA%94%E6%A1%88%EF%BC%A2.png title=新增檔案Ｂ.png></p>
+<p><img class=lazyload data-src=Git%20b279ad6cc87143ffad4bbc8cf8078934/%E6%96%B0%E5%A2%9E%E6%AA%94%E6%A1%88%EF%BC%A2.png data-srcset="/posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/%E6%96%B0%E5%A2%9E%E6%AA%94%E6%A1%88%EF%BC%A2.png, Git%20b279ad6cc87143ffad4bbc8cf8078934/%E6%96%B0%E5%A2%9E%E6%AA%94%E6%A1%88%EF%BC%A2.png 1.5x, /posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/%E6%96%B0%E5%A2%9E%E6%AA%94%E6%A1%88%EF%BC%A2.png 2x" data-sizes=auto alt=/posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/%E6%96%B0%E5%A2%9E%E6%AA%94%E6%A1%88%EF%BC%A2.png title=新增檔案Ｂ.png></p>
 <p>但這時候你發現有個原本的功能，只要稍加修改就能改善你整個專案的速度，你可能會選擇這樣做</p>
 <div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>git checkout master
 git add 檔案A
@@ -321,7 +321,7 @@ git commit -m <span class=s2>&#34;修改檔案A內容改善專案速度&#34;</sp
 </code></pre></div><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>git add 檔案C
 git commit -m <span class=s2>&#34;修改檔案C內容改善專案速度&#34;</span>
 </code></pre></div><p>git flow</p>
-<p><img class=lazyload data-src=Git%20b279ad6cc87143ffad4bbc8cf8078934/mutipleBranch.png data-srcset="Git%20b279ad6cc87143ffad4bbc8cf8078934/mutipleBranch.png, Git%20b279ad6cc87143ffad4bbc8cf8078934/mutipleBranch.png 1.5x, Git%20b279ad6cc87143ffad4bbc8cf8078934/mutipleBranch.png 2x" data-sizes=auto alt=Git%20b279ad6cc87143ffad4bbc8cf8078934/mutipleBranch.png title=mutipleBranch.png></p>
+<p><img class=lazyload data-src=Git%20b279ad6cc87143ffad4bbc8cf8078934/mutipleBranch.png data-srcset="/posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/mutipleBranch.png, Git%20b279ad6cc87143ffad4bbc8cf8078934/mutipleBranch.png 1.5x, /posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/mutipleBranch.png 2x" data-sizes=auto alt=/posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/mutipleBranch.png title=mutipleBranch.png></p>
 <p>從gitflow來看是不是就像是你的專案長出了2條分支的版本管控了呢?</p>
 <p>這也是為什麼要叫branch的由來，</p>
 <blockquote>
@@ -337,7 +337,7 @@ git merge 功能B
 <p>只要這兩條分支沒有動到相同的檔案的話，git會自動幫我們把兩條分支內有更動到的檔案整合在一起，並且產生一個合併過後的版本，但注意喔，在之前的講解，以newDesign做例子的時候原本的說法是我選擇了master這個標籤貼，並把它貼到newDesign當下所在的版本上，但那是在兩個標籤貼處於同一分支，沒有分支要合併的情況下。</p>
 <p>再回頭看看目前的情況，git已經幫我們將兩個分支做合併，並產生了一個新的版本，你卻把master往功能B所在的版本貼不是很奇怪嗎?功能B標籤貼所在的版本是沒合併的版本耶，所以git當然是會自動的把master貼紙貼到合併後的版本上！</p>
 <p>git flow</p>
-<p><img class=lazyload data-src=Git%20b279ad6cc87143ffad4bbc8cf8078934/mergeMutilpleBranch.png data-srcset="Git%20b279ad6cc87143ffad4bbc8cf8078934/mergeMutilpleBranch.png, Git%20b279ad6cc87143ffad4bbc8cf8078934/mergeMutilpleBranch.png 1.5x, Git%20b279ad6cc87143ffad4bbc8cf8078934/mergeMutilpleBranch.png 2x" data-sizes=auto alt=Git%20b279ad6cc87143ffad4bbc8cf8078934/mergeMutilpleBranch.png title=mergeMutilpleBranch.png></p>
+<p><img class=lazyload data-src=Git%20b279ad6cc87143ffad4bbc8cf8078934/mergeMutilpleBranch.png data-srcset="/posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/mergeMutilpleBranch.png, Git%20b279ad6cc87143ffad4bbc8cf8078934/mergeMutilpleBranch.png 1.5x, /posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/mergeMutilpleBranch.png 2x" data-sizes=auto alt=/posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/mergeMutilpleBranch.png title=mergeMutilpleBranch.png></p>
 <blockquote>
 <p>只要你是進行兩個分支的合併的話，git會將你目前選擇的標籤貼往合併後的版本上貼的，
 可以這樣去思考，執行git merge就是會將你當下選擇的標籤貼與要merge的標籤貼所在的版本(分支)作合併，
@@ -401,7 +401,7 @@ git commit -m <span class=s2>&#34;conflict fixed&#34;</span>
 <p>在當前git控管的資料夾上新增遠端伺服器的位置。</p>
 <p><code>origin</code>⇒可任意取名的遠端伺服器簡稱，代表的是後面的url，慣例叫origin。</p>
 <p><code>git@github.com:...</code>此處需替換成你遠端的儲存檔案位置 可以在GitHub上的專案這個位置看到</p>
-<p><img class=lazyload data-src=Git%20b279ad6cc87143ffad4bbc8cf8078934/GitHub%E9%81%A0%E7%AB%AF%E4%BD%8D%E7%BD%AE.png data-srcset="Git%20b279ad6cc87143ffad4bbc8cf8078934/GitHub%E9%81%A0%E7%AB%AF%E4%BD%8D%E7%BD%AE.png, Git%20b279ad6cc87143ffad4bbc8cf8078934/GitHub%E9%81%A0%E7%AB%AF%E4%BD%8D%E7%BD%AE.png 1.5x, Git%20b279ad6cc87143ffad4bbc8cf8078934/GitHub%E9%81%A0%E7%AB%AF%E4%BD%8D%E7%BD%AE.png 2x" data-sizes=auto alt=Git%20b279ad6cc87143ffad4bbc8cf8078934/GitHub%E9%81%A0%E7%AB%AF%E4%BD%8D%E7%BD%AE.png title=GitHub遠端位置.png></p>
+<p><img class=lazyload data-src=Git%20b279ad6cc87143ffad4bbc8cf8078934/GitHub%E9%81%A0%E7%AB%AF%E4%BD%8D%E7%BD%AE.png data-srcset="/posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/GitHub%E9%81%A0%E7%AB%AF%E4%BD%8D%E7%BD%AE.png, Git%20b279ad6cc87143ffad4bbc8cf8078934/GitHub%E9%81%A0%E7%AB%AF%E4%BD%8D%E7%BD%AE.png 1.5x, /posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/GitHub%E9%81%A0%E7%AB%AF%E4%BD%8D%E7%BD%AE.png 2x" data-sizes=auto alt=/posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/GitHub%E9%81%A0%E7%AB%AF%E4%BD%8D%E7%BD%AE.png title=GitHub遠端位置.png></p>
 <blockquote>
 <p>如果使用clone方式創建一個git控管專案在本機，則可以不用此步驟，
 github會自動幫你把遠端伺服器位置設定用好，並將伺服器簡稱設為origin</p>
@@ -432,7 +432,7 @@ github會自動幫你把遠端伺服器位置設定用好，並將伺服器簡�
 <div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>git push -u origin 要推的本機分支名稱
 </code></pre></div><p>git flow</p>
 <div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>git push origin master
-</code></pre></div><p><img class=lazyload data-src=Git%20b279ad6cc87143ffad4bbc8cf8078934/push.png data-srcset="Git%20b279ad6cc87143ffad4bbc8cf8078934/push.png, Git%20b279ad6cc87143ffad4bbc8cf8078934/push.png 1.5x, Git%20b279ad6cc87143ffad4bbc8cf8078934/push.png 2x" data-sizes=auto alt=Git%20b279ad6cc87143ffad4bbc8cf8078934/push.png title=push.png></p>
+</code></pre></div><p><img class=lazyload data-src=Git%20b279ad6cc87143ffad4bbc8cf8078934/push.png data-srcset="/posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/push.png, Git%20b279ad6cc87143ffad4bbc8cf8078934/push.png 1.5x, /posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/push.png 2x" data-sizes=auto alt=/posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/push.png title=push.png></p>
 <p>從git flow中有沒有注意到，Server與Local中間還存在了一個時空夾縫，</p>
 <p>當你執行git的遠端操作指令時，git就會幫你在你的本機端劃出一個這樣子的空間，</p>
 <p>不管從本機上傳到遠端或是從遠端下載到本機，都會經過這個空間，</p>
@@ -449,7 +449,7 @@ github會自動幫你把遠端伺服器位置設定用好，並將伺服器簡�
 </blockquote>
 <div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>git push origin master:main
 </code></pre></div><p>則git flow長這樣</p>
-<p><img class=lazyload data-src=Git%20b279ad6cc87143ffad4bbc8cf8078934/RemoteMasterToMain.png data-srcset="Git%20b279ad6cc87143ffad4bbc8cf8078934/RemoteMasterToMain.png, Git%20b279ad6cc87143ffad4bbc8cf8078934/RemoteMasterToMain.png 1.5x, Git%20b279ad6cc87143ffad4bbc8cf8078934/RemoteMasterToMain.png 2x" data-sizes=auto alt=Git%20b279ad6cc87143ffad4bbc8cf8078934/RemoteMasterToMain.png title=RemoteMasterToMain.png></p>
+<p><img class=lazyload data-src=Git%20b279ad6cc87143ffad4bbc8cf8078934/RemoteMasterToMain.png data-srcset="/posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/RemoteMasterToMain.png, Git%20b279ad6cc87143ffad4bbc8cf8078934/RemoteMasterToMain.png 1.5x, /posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/RemoteMasterToMain.png 2x" data-sizes=auto alt=/posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/RemoteMasterToMain.png title=RemoteMasterToMain.png></p>
 <h2 id=而為什麼會有一個時空夾縫存在呢>而為什麼會有一個時空夾縫存在呢?</h2>
 <p><code>主要是為了避免再多人協作的時候造成版本不統一的情況</code>(通常會上傳到遠端都會有多人協作的需求)</p>
 <p>讓我們延續上圖繼續說下去，假設距離上次push到遠端後，你在本機修又改了好幾個版本，終於要再次上傳遠端了</p>
@@ -457,12 +457,12 @@ github會自動幫你把遠端伺服器位置設定用好，並將伺服器簡�
 <p>要注意!由於push結束後，時空夾縫的時間就凍結了，之後commit的新版本是不會放在時空夾縫的喔~</p>
 </blockquote>
 <p>git flow</p>
-<p><img class=lazyload data-src=Git%20b279ad6cc87143ffad4bbc8cf8078934/LocalUpdate.png data-srcset="Git%20b279ad6cc87143ffad4bbc8cf8078934/LocalUpdate.png, Git%20b279ad6cc87143ffad4bbc8cf8078934/LocalUpdate.png 1.5x, Git%20b279ad6cc87143ffad4bbc8cf8078934/LocalUpdate.png 2x" data-sizes=auto alt=Git%20b279ad6cc87143ffad4bbc8cf8078934/LocalUpdate.png title=LocalUpdate.png></p>
+<p><img class=lazyload data-src=Git%20b279ad6cc87143ffad4bbc8cf8078934/LocalUpdate.png data-srcset="/posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/LocalUpdate.png, Git%20b279ad6cc87143ffad4bbc8cf8078934/LocalUpdate.png 1.5x, /posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/LocalUpdate.png 2x" data-sizes=auto alt=/posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/LocalUpdate.png title=LocalUpdate.png></p>
 <p>當你下了push指令後，git並不會立即幫你把Local端的備份資料上傳，</p>
 <p>而是會先去開啟時空夾縫，並且將當初留下的狀態與目前遠端上的資料比對一下，</p>
 <p>結果發現，欸~有人比你先更新了遠端的資料了欸!為了避免你沒follow到，所以你不準上傳你的檔案!</p>
 <p>git flow</p>
-<p><img class=lazyload data-src=Git%20b279ad6cc87143ffad4bbc8cf8078934/PushNG.png data-srcset="Git%20b279ad6cc87143ffad4bbc8cf8078934/PushNG.png, Git%20b279ad6cc87143ffad4bbc8cf8078934/PushNG.png 1.5x, Git%20b279ad6cc87143ffad4bbc8cf8078934/PushNG.png 2x" data-sizes=auto alt=Git%20b279ad6cc87143ffad4bbc8cf8078934/PushNG.png title=PushNG.png></p>
+<p><img class=lazyload data-src=Git%20b279ad6cc87143ffad4bbc8cf8078934/PushNG.png data-srcset="/posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/PushNG.png, Git%20b279ad6cc87143ffad4bbc8cf8078934/PushNG.png 1.5x, /posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/PushNG.png 2x" data-sizes=auto alt=/posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/PushNG.png title=PushNG.png></p>
 <blockquote>
 <p>如果這時候強制要上傳，則由於你本機端的C1後面接的是C2，但遠端C1後面接的是A2，
 則強制上傳後C2就會將A2的版本覆蓋掉喔!</p>
@@ -482,7 +482,7 @@ github會自動幫你把遠端伺服器位置設定用好，並將伺服器簡�
 <p><code>origin</code>⇒當初設定的伺服器簡稱</p>
 <p><code>main</code>⇒選擇要下載的伺服器標籤所在分支，並且選擇一個本機上的標籤來貼在遠端標籤貼原本指向的版本，由於此處選擇的是當初在時空夾縫新生成並用來代表遠端上的同名標籤貼，故由<code>main:origin/main</code>簡化成<code>main</code></p>
 <p>git flow</p>
-<p><img class=lazyload data-src=Git%20b279ad6cc87143ffad4bbc8cf8078934/fetch.png data-srcset="Git%20b279ad6cc87143ffad4bbc8cf8078934/fetch.png, Git%20b279ad6cc87143ffad4bbc8cf8078934/fetch.png 1.5x, Git%20b279ad6cc87143ffad4bbc8cf8078934/fetch.png 2x" data-sizes=auto alt=Git%20b279ad6cc87143ffad4bbc8cf8078934/fetch.png title=fetch.png></p>
+<p><img class=lazyload data-src=Git%20b279ad6cc87143ffad4bbc8cf8078934/fetch.png data-srcset="/posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/fetch.png, Git%20b279ad6cc87143ffad4bbc8cf8078934/fetch.png 1.5x, /posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/fetch.png 2x" data-sizes=auto alt=/posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/fetch.png title=fetch.png></p>
 <p>這時候你會發現，時空夾縫中的分支與本地分支就像在兩條平行線，版本互相沒有交集，你該怎麼辦?</p>
 <p>別忘了我們有一個本機端的指令merge，只要這樣</p>
 <div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>git checkout master
@@ -491,7 +491,7 @@ git merge origin/main
 <p><code>git checkout mater</code>⇒選擇本地master標籤貼和其版本</p>
 <p><code>git merge origin/main</code>⇒merge遠端標籤貼在的版本，遠端的標籤貼名稱需在前面加上當初取的伺服器簡稱(origin)</p>
 <p>git flow</p>
-<p><img class=lazyload data-src=Git%20b279ad6cc87143ffad4bbc8cf8078934/fetchMerge.png data-srcset="Git%20b279ad6cc87143ffad4bbc8cf8078934/fetchMerge.png, Git%20b279ad6cc87143ffad4bbc8cf8078934/fetchMerge.png 1.5x, Git%20b279ad6cc87143ffad4bbc8cf8078934/fetchMerge.png 2x" data-sizes=auto alt=Git%20b279ad6cc87143ffad4bbc8cf8078934/fetchMerge.png title=fetchMerge.png></p>
+<p><img class=lazyload data-src=Git%20b279ad6cc87143ffad4bbc8cf8078934/fetchMerge.png data-srcset="/posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/fetchMerge.png, Git%20b279ad6cc87143ffad4bbc8cf8078934/fetchMerge.png 1.5x, /posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/fetchMerge.png 2x" data-sizes=auto alt=/posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/fetchMerge.png title=fetchMerge.png></p>
 <blockquote>
 <p>一樣的，由於fetch結束後，時空夾縫的時間就凍結了，
 merge過後的新版本是不能放在時空夾縫中的!</p>
@@ -499,10 +499,10 @@ merge過後的新版本是不能放在時空夾縫中的!</p>
 <h3 id=rebase版本>rebase版本</h3>
 <p>merge與rebase的差異請見</p>
 <p><a href=https://www.notion.so/rebase-vs-merge-9be5c099abd2433890802748d7e554a3 target=_blank rel="noopener noreffer">rebase vs merge</a></p>
-<p><img class=lazyload data-src=Git%20b279ad6cc87143ffad4bbc8cf8078934/fetchRebase.png data-srcset="Git%20b279ad6cc87143ffad4bbc8cf8078934/fetchRebase.png, Git%20b279ad6cc87143ffad4bbc8cf8078934/fetchRebase.png 1.5x, Git%20b279ad6cc87143ffad4bbc8cf8078934/fetchRebase.png 2x" data-sizes=auto alt=Git%20b279ad6cc87143ffad4bbc8cf8078934/fetchRebase.png title=fetchRebase.png></p>
+<p><img class=lazyload data-src=Git%20b279ad6cc87143ffad4bbc8cf8078934/fetchRebase.png data-srcset="/posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/fetchRebase.png, Git%20b279ad6cc87143ffad4bbc8cf8078934/fetchRebase.png 1.5x, /posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/fetchRebase.png 2x" data-sizes=auto alt=/posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/fetchRebase.png title=fetchRebase.png></p>
 <p>如果這時候又有人新增資料到遠端上的版本，</p>
 <p>則 git flow</p>
-<p><img class=lazyload data-src=Git%20b279ad6cc87143ffad4bbc8cf8078934/MoreRemote.png data-srcset="Git%20b279ad6cc87143ffad4bbc8cf8078934/MoreRemote.png, Git%20b279ad6cc87143ffad4bbc8cf8078934/MoreRemote.png 1.5x, Git%20b279ad6cc87143ffad4bbc8cf8078934/MoreRemote.png 2x" data-sizes=auto alt=Git%20b279ad6cc87143ffad4bbc8cf8078934/MoreRemote.png title=MoreRemote.png></p>
+<p><img class=lazyload data-src=Git%20b279ad6cc87143ffad4bbc8cf8078934/MoreRemote.png data-srcset="/posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/MoreRemote.png, Git%20b279ad6cc87143ffad4bbc8cf8078934/MoreRemote.png 1.5x, /posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/MoreRemote.png 2x" data-sizes=auto alt=/posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/MoreRemote.png title=MoreRemote.png></p>
 <p>可以看到，時空夾縫與遠端的狀態又不一致了，</p>
 <p>所以需要再次更新你的時空夾縫狀態才能將資料上傳了，</p>
 <p>甚麼?你嫌fetch完又要merge太慢? 那麼你一定要知道<code>git pull</code>這個指令了</p>
@@ -524,7 +524,7 @@ git pull origin main
 <p>由於此處選擇的是當初在時空夾縫新生成並用來代表遠端上的同名標籤貼，故由<code>main:origin/main</code>簡化成<code>main</code>，</p>
 <p>最後要記得，merge是將你目前所選擇的標籤貼貼到最新的版本上，因此是將master標籤貼貼到最新的版本上(還記得在pull前我們先用<code>checkout master</code>選擇了master標籤貼嗎?)。</p>
 <p>git flow</p>
-<p><img class=lazyload data-src=Git%20b279ad6cc87143ffad4bbc8cf8078934/Pull.png data-srcset="Git%20b279ad6cc87143ffad4bbc8cf8078934/Pull.png, Git%20b279ad6cc87143ffad4bbc8cf8078934/Pull.png 1.5x, Git%20b279ad6cc87143ffad4bbc8cf8078934/Pull.png 2x" data-sizes=auto alt=Git%20b279ad6cc87143ffad4bbc8cf8078934/Pull.png title=Pull.png></p>
+<p><img class=lazyload data-src=Git%20b279ad6cc87143ffad4bbc8cf8078934/Pull.png data-srcset="/posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/Pull.png, Git%20b279ad6cc87143ffad4bbc8cf8078934/Pull.png 1.5x, /posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/Pull.png 2x" data-sizes=auto alt=/posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/Pull.png title=Pull.png></p>
 <h3 id=rebase版本-1>rebase版本</h3>
 <p>公式</p>
 <div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>git pull 伺服器簡稱 伺服器上的標籤:本機上的標籤 --rebase
@@ -534,13 +534,13 @@ git pull origin main --rebase
 </code></pre></div><h3 id=代碼解釋-10>代碼解釋</h3>
 <p><code>-rebase</code>⇒代表我不要使用merge而是使用rebase的方式合併</p>
 <p>git flow</p>
-<p><img class=lazyload data-src=Git%20b279ad6cc87143ffad4bbc8cf8078934/Pull--rebase.png data-srcset="Git%20b279ad6cc87143ffad4bbc8cf8078934/Pull--rebase.png, Git%20b279ad6cc87143ffad4bbc8cf8078934/Pull--rebase.png 1.5x, Git%20b279ad6cc87143ffad4bbc8cf8078934/Pull--rebase.png 2x" data-sizes=auto alt=Git%20b279ad6cc87143ffad4bbc8cf8078934/Pull--rebase.png title=Pull&amp;ndash;rebase.png></p>
+<p><img class=lazyload data-src=Git%20b279ad6cc87143ffad4bbc8cf8078934/Pull--rebase.png data-srcset="/posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/Pull--rebase.png, Git%20b279ad6cc87143ffad4bbc8cf8078934/Pull--rebase.png 1.5x, /posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/Pull--rebase.png 2x" data-sizes=auto alt=/posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/Pull--rebase.png title=Pull&amp;ndash;rebase.png></p>
 <p>最後，終於沒有人在我們上傳前去更新遠端的版本了，所以我們再次使用push上傳</p>
 <div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>git push origin master:main
 </code></pre></div><p>git flow</p>
-<p><img class=lazyload data-src=Git%20b279ad6cc87143ffad4bbc8cf8078934/gitPushMerge%E7%89%88.png data-srcset="Git%20b279ad6cc87143ffad4bbc8cf8078934/gitPushMerge%E7%89%88.png, Git%20b279ad6cc87143ffad4bbc8cf8078934/gitPushMerge%E7%89%88.png 1.5x, Git%20b279ad6cc87143ffad4bbc8cf8078934/gitPushMerge%E7%89%88.png 2x" data-sizes=auto alt=Git%20b279ad6cc87143ffad4bbc8cf8078934/gitPushMerge%E7%89%88.png title=gitPushMerge版.png></p>
+<p><img class=lazyload data-src=Git%20b279ad6cc87143ffad4bbc8cf8078934/gitPushMerge%E7%89%88.png data-srcset="/posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/gitPushMerge%E7%89%88.png, Git%20b279ad6cc87143ffad4bbc8cf8078934/gitPushMerge%E7%89%88.png 1.5x, /posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/gitPushMerge%E7%89%88.png 2x" data-sizes=auto alt=/posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/gitPushMerge%E7%89%88.png title=gitPushMerge版.png></p>
 <p>rebase版本</p>
-<p><img class=lazyload data-src=Git%20b279ad6cc87143ffad4bbc8cf8078934/gitPushRebase.png data-srcset="Git%20b279ad6cc87143ffad4bbc8cf8078934/gitPushRebase.png, Git%20b279ad6cc87143ffad4bbc8cf8078934/gitPushRebase.png 1.5x, Git%20b279ad6cc87143ffad4bbc8cf8078934/gitPushRebase.png 2x" data-sizes=auto alt=Git%20b279ad6cc87143ffad4bbc8cf8078934/gitPushRebase.png title=gitPushRebase.png></p>
+<p><img class=lazyload data-src=Git%20b279ad6cc87143ffad4bbc8cf8078934/gitPushRebase.png data-srcset="/posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/gitPushRebase.png, Git%20b279ad6cc87143ffad4bbc8cf8078934/gitPushRebase.png 1.5x, /posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/gitPushRebase.png 2x" data-sizes=auto alt=/posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/gitPushRebase.png title=gitPushRebase.png></p>
 <h1 id=pull-request>Pull Request</h1>
 <p>參考資料: <a href=https://gitbook.tw/chapters/github/syncing-a-fork.html target=_blank rel="noopener noreffer">如何設定原作的遠端專案</a></p>
 <p>Pull Request</p>
@@ -555,13 +555,13 @@ git pull origin main --rebase
 </blockquote>
 <p>fork完且從自己的GitHub帳號將專案clone到自己的電腦後，</p>
 <p>git flow長這樣</p>
-<p><img class=lazyload data-src=Git%20b279ad6cc87143ffad4bbc8cf8078934/Fork.png data-srcset="Git%20b279ad6cc87143ffad4bbc8cf8078934/Fork.png, Git%20b279ad6cc87143ffad4bbc8cf8078934/Fork.png 1.5x, Git%20b279ad6cc87143ffad4bbc8cf8078934/Fork.png 2x" data-sizes=auto alt=Git%20b279ad6cc87143ffad4bbc8cf8078934/Fork.png title=Fork.png></p>
+<p><img class=lazyload data-src=Git%20b279ad6cc87143ffad4bbc8cf8078934/Fork.png data-srcset="/posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/Fork.png, Git%20b279ad6cc87143ffad4bbc8cf8078934/Fork.png 1.5x, /posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/Fork.png 2x" data-sizes=auto alt=/posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/Fork.png title=Fork.png></p>
 <p>但記得我們之前說時空夾縫的用途是甚麼嗎?</p>
 <p>是為了避免遠端的版本如果有更新了，你的本機端沒follow到，但看看你的遠端(GitHub帳號)，有人會更新版本到你fork過來的專案嗎?答案是沒有人…</p>
 <p>只有原專案的GitHub帳號才會有人更新版本上去，</p>
 <p>因此時空夾縫應該存在於你的本機與原專案的GitHub帳號之間，</p>
 <p>為此我們稍微修改一下git flow</p>
-<p><img class=lazyload data-src=Git%20b279ad6cc87143ffad4bbc8cf8078934/AfterFork.png data-srcset="Git%20b279ad6cc87143ffad4bbc8cf8078934/AfterFork.png, Git%20b279ad6cc87143ffad4bbc8cf8078934/AfterFork.png 1.5x, Git%20b279ad6cc87143ffad4bbc8cf8078934/AfterFork.png 2x" data-sizes=auto alt=Git%20b279ad6cc87143ffad4bbc8cf8078934/AfterFork.png title=AfterFork.png></p>
+<p><img class=lazyload data-src=Git%20b279ad6cc87143ffad4bbc8cf8078934/AfterFork.png data-srcset="/posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/AfterFork.png, Git%20b279ad6cc87143ffad4bbc8cf8078934/AfterFork.png 1.5x, /posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/AfterFork.png 2x" data-sizes=auto alt=/posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/AfterFork.png title=AfterFork.png></p>
 <blockquote>
 <p>實際上你的本機與你的GitHub fork過來的專案之間還是存在時空夾縫的，只是由於你的遠端與時空夾縫的專案版本只要不存在差異，你是永遠感受不到它的存在。</p>
 </blockquote>
@@ -571,7 +571,7 @@ git pull origin main --rebase
 <p>當我們從自己的GitHub上按下Pull Request按鈕時，</p>
 <p>git就會從時空夾縫中，將時間停留於當初fork過來的時間點的版本與原專案目前的版本作比較。</p>
 <p>git flow</p>
-<p><img class=lazyload data-src=Git%20b279ad6cc87143ffad4bbc8cf8078934/Pull_Request.png data-srcset="Git%20b279ad6cc87143ffad4bbc8cf8078934/Pull_Request.png, Git%20b279ad6cc87143ffad4bbc8cf8078934/Pull_Request.png 1.5x, Git%20b279ad6cc87143ffad4bbc8cf8078934/Pull_Request.png 2x" data-sizes=auto alt=Git%20b279ad6cc87143ffad4bbc8cf8078934/Pull_Request.png title="Pull Request.png"></p>
+<p><img class=lazyload data-src=Git%20b279ad6cc87143ffad4bbc8cf8078934/Pull_Request.png data-srcset="/posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/Pull_Request.png, Git%20b279ad6cc87143ffad4bbc8cf8078934/Pull_Request.png 1.5x, /posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/Pull_Request.png 2x" data-sizes=auto alt=/posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/Pull_Request.png title="Pull Request.png"></p>
 <p>這時候如果發現版本不一致了怎麼辦?</p>
 <p>從前面所學，你知道需要先更新原專案最新的版本到時空夾縫中，因此我們需要在你的本機上再新增一個遠端位置，而這個遠端位置就是原專案的GitHub帳號位置</p>
 <div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>git remote add sourceRemote https://github.com/...
@@ -591,7 +591,7 @@ origin  https://github.com/... <span class=o>(</span>push<span class=o>)</span>
 <p>最後與遠端教學介紹的那樣，再將最新的版本下載下來與本機的分支作連結(pull)，</p>
 <div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>git pull sourceRemote main
 </code></pre></div><p>git flow</p>
-<p><img class=lazyload data-src=Git%20b279ad6cc87143ffad4bbc8cf8078934/PullRemote.png data-srcset="Git%20b279ad6cc87143ffad4bbc8cf8078934/PullRemote.png, Git%20b279ad6cc87143ffad4bbc8cf8078934/PullRemote.png 1.5x, Git%20b279ad6cc87143ffad4bbc8cf8078934/PullRemote.png 2x" data-sizes=auto alt=Git%20b279ad6cc87143ffad4bbc8cf8078934/PullRemote.png title=PullRemote.png></p>
+<p><img class=lazyload data-src=Git%20b279ad6cc87143ffad4bbc8cf8078934/PullRemote.png data-srcset="/posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/PullRemote.png, Git%20b279ad6cc87143ffad4bbc8cf8078934/PullRemote.png 1.5x, /posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/PullRemote.png 2x" data-sizes=auto alt=/posts/git/Git%20b279ad6cc87143ffad4bbc8cf8078934/PullRemote.png title=PullRemote.png></p>
 <p>就可以再push回自己的GitHub帳號，並且再發送Pull Request即可。</p>
 <p>而原專案作者如果同意這次的改動， 在自己帳號的這個專案Pull Request頁面點擊Merged按鈕即可收下，由於網路上已經有很多人把這個流程介紹得很清楚了，此處就不再細講。</p>
 <h1 id=貼紙不是越多越好>貼紙不是越多越好</h1>
