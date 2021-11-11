@@ -12,6 +12,9 @@ theme = "DoIt"
   # DoIt theme version
   version = "0.2.X"
 
+  [params.social]
+    GitHub = "https://github.com/cycsd"
+
 [menu]
   [[menu.main]]
     identifier = "posts"
