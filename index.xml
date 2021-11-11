@@ -8,4 +8,4 @@ git config --global user.name &#34;君の名は&#34; git config --global user.em
 git init git 才會開始幫你管理檔案備份喔! 此指令一個檔案夾內只要做一次就好。
 現在，如果檔案夾內有一份test.html文件，並且想使用git來幫助我們對這份檔案進行備份/還原的操作，則在git bash視窗中打上
 備份指令(git commit) git add test.html git commit -m &#34;1/1號，將test.html 文件交由git控管&#34; 代碼解釋 git add ... ⇒ 勾選這次要備份的文件
-git commit -m &quot;...&quot; ⇒ 備份，並為這次的備份寫上備註，-m的m代表message的意思。]]></description></item><item><title>First_post</title><link>https://cycsd.github.io/posts/first_post/</link><pubDate>Tue, 09 Nov 2021 21:16:21 +0800</pubDate><author><name>Author</name></author><guid>https://cycsd.github.io/posts/first_post/</guid><description></description></item></channel></rss>
+git commit -m &quot;...&quot; ⇒ 備份，並為這次的備份寫上備註，-m的m代表message的意思。]]></description></item><item><title>First_post</title><link>https://cycsd.github.io/posts/first_post/</link><pubDate>Tue, 09 Nov 2021 21:16:21 +0800</pubDate><author><name>Author</name></author><guid>https://cycsd.github.io/posts/first_post/</guid><description>DoIt模板</description></item></channel></rss>
