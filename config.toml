@@ -1,8 +1,9 @@
 baseURL = "https://cycsd.github.io/"
 # [en, zh-cn, fr, ...] determines default content language
-defaultContentLanguage = "en"
+defaultContentLanguage = "zh-tw"
 # language code
-languageCode = "en"
+languageCode = "zh-TW"
+hasCJKLanguage = true
 title = "White Code"
 
 # Change the default theme to be use when building the site with Hugo
@@ -14,7 +15,6 @@ theme = "DoIt"
   [params.home]
     [params.home.profile]
       enable = true
-      gravatarEmail = "cycsd9211@gmail.com"
       avatarURL= "/images/avatar.PNG"
       subtitle = "自我學習心得分享blog"
       typeit = true
