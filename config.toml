@@ -11,6 +11,13 @@ theme = "DoIt"
 [params]
   # DoIt theme version
   version = "0.2.X"
+  [params.home]
+    [params.home.profile]
+      enable = true
+      gravatarEmail = "cycsd9211@gmail.com"
+      avatarURL= "/images/avatar.PNG"
+      subtitle = "自我學習心得分享blog"
+      typeit = true
 
   [params.social]
     GitHub = "cycsd"
