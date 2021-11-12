@@ -20,7 +20,7 @@ theme = "DoIt"
       typeit = true
 
   [params.social]
-    Github = "cycsd"
+    github = "cycsd"
 
 [menu]
   [[menu.main]]
