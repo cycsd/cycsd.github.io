@@ -1,44 +1,24 @@
-<!doctype html><html lang=en>
+<!doctype html><html lang=zh-tw>
 <head>
 <meta charset=utf-8>
 <meta name=viewport content="width=device-width,initial-scale=1">
 <meta name=robots content="noodp">
 <title class=pjax-title>Git - White Code</title><meta name=Description content><meta property="og:title" content="Git">
-<meta property="og:description" content="git flow概念參考: Git Branching_好吃、新奇、又好玩
-Git Branching fakeTeamwork指令
-貼紙概念參考: 為你自己學Git_高見龍
-UI介紹_配合指令
-安裝設定 所有的git指令皆是要打在Git Bash裡(此為安裝完Git就會有的東西)
-需先設定本機的使用者名稱與email
-git config --global user.name &#34;君の名は&#34; git config --global user.email &#34;你的email&#34; 其他環境設定  編譯器設定:VSCode：  git config --global core.editor &#34;code --wait&#34;`  git 其他全域參數設定  為何使用Git 想要有備份還原功能 一切的開始(備份/還原) 在開始前，請記得先用git bash程式切換至要讓git管理的檔案夾後，打上
-git init git 才會開始幫你管理檔案備份喔! 此指令一個檔案夾內只要做一次就好。
-現在，如果檔案夾內有一份test.html文件，並且想使用git來幫助我們對這份檔案進行備份/還原的操作，則在git bash視窗中打上
-備份指令(git commit) git add test.html git commit -m &#34;1/1號，將test.html 文件交由git控管&#34; 代碼解釋 git add ... ⇒ 勾選這次要備份的文件
-git commit -m &#34;...&#34; ⇒ 備份，並為這次的備份寫上備註，-m的m代表message的意思。">
+<meta property="og:description" content="git flow概念參考: Git Branching_好吃、新奇、又好玩 Git Branching fakeTeamwork指令 貼紙概念參考: 為你自己學Git_高見龍 UI介紹_">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://cycsd.github.io/posts/git/"><meta property="article:section" content="posts">
 <meta property="article:published_time" content="2021-11-09T21:16:22+08:00">
 <meta property="article:modified_time" content="2021-11-09T21:16:22+08:00">
 <meta name=twitter:card content="summary">
 <meta name=twitter:title content="Git">
-<meta name=twitter:description content="git flow概念參考: Git Branching_好吃、新奇、又好玩
-Git Branching fakeTeamwork指令
-貼紙概念參考: 為你自己學Git_高見龍
-UI介紹_配合指令
-安裝設定 所有的git指令皆是要打在Git Bash裡(此為安裝完Git就會有的東西)
-需先設定本機的使用者名稱與email
-git config --global user.name &#34;君の名は&#34; git config --global user.email &#34;你的email&#34; 其他環境設定  編譯器設定:VSCode：  git config --global core.editor &#34;code --wait&#34;`  git 其他全域參數設定  為何使用Git 想要有備份還原功能 一切的開始(備份/還原) 在開始前，請記得先用git bash程式切換至要讓git管理的檔案夾後，打上
-git init git 才會開始幫你管理檔案備份喔! 此指令一個檔案夾內只要做一次就好。
-現在，如果檔案夾內有一份test.html文件，並且想使用git來幫助我們對這份檔案進行備份/還原的操作，則在git bash視窗中打上
-備份指令(git commit) git add test.html git commit -m &#34;1/1號，將test.html 文件交由git控管&#34; 代碼解釋 git add ... ⇒ 勾選這次要備份的文件
-git commit -m &#34;...&#34; ⇒ 備份，並為這次的備份寫上備註，-m的m代表message的意思。">
+<meta name=twitter:description content="git flow概念參考: Git Branching_好吃、新奇、又好玩 Git Branching fakeTeamwork指令 貼紙概念參考: 為你自己學Git_高見龍 UI介紹_">
 <meta name=application-name content="White Code">
 <meta name=apple-mobile-web-app-title content="White Code">
 <meta name=theme-color content="#f8f8f8"><link rel="shortcut icon" type=image/x-icon href=/favicon.ico>
 <link rel=icon type=image/png sizes=32x32 href=/favicon-32x32.png>
 <link rel=icon type=image/png sizes=16x16 href=/favicon-16x16.png><link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png><link rel=canonical href=https://cycsd.github.io/posts/git/><link rel=prev href=https://cycsd.github.io/posts/first_post/><link rel=stylesheet href=/lib/normalize/normalize.min.css><link rel=stylesheet href=/css/style.min.css><link rel=preload as=style onload="this.onload=null,this.rel='stylesheet'" href=/lib/fontawesome-free/all.min.css>
 <noscript><link rel=stylesheet href=/lib/fontawesome-free/all.min.css></noscript><link rel=preload as=style onload="this.onload=null,this.rel='stylesheet'" href=/lib/animate/animate.min.css>
-<noscript><link rel=stylesheet href=/lib/animate/animate.min.css></noscript><script type=application/ld+json>{"@context":"http://schema.org","@type":"BlogPosting","headline":"Git","inLanguage":"en","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/cycsd.github.io\/posts\/git\/"},"genre":"posts","wordcount":699,"url":"https:\/\/cycsd.github.io\/posts\/git\/","datePublished":"2021-11-09T21:16:22+08:00","dateModified":"2021-11-09T21:16:22+08:00","publisher":{"@type":"Organization","name":"Author"},"author":{"@type":"Person","name":"Author"},"description":""}</script></head>
+<noscript><link rel=stylesheet href=/lib/animate/animate.min.css></noscript><script type=application/ld+json>{"@context":"http://schema.org","@type":"BlogPosting","headline":"Git","inLanguage":"zh-TW","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/cycsd.github.io\/posts\/git\/"},"genre":"posts","wordcount":8909,"url":"https:\/\/cycsd.github.io\/posts\/git\/","datePublished":"2021-11-09T21:16:22+08:00","dateModified":"2021-11-09T21:16:22+08:00","publisher":{"@type":"Organization","name":""},"description":""}</script></head>
 <body header-desktop header-mobile><script type=text/javascript>function setTheme(a){document.body.setAttribute('theme',a)}function saveTheme(a){window.localStorage&&localStorage.setItem('theme',a)}function getMeta(b){const a=document.getElementsByTagName('meta');for(let c=0;c<a.length;c++)if(a[c].getAttribute('name')===b)return a[c];return''}if(window.localStorage&&localStorage.getItem('theme')){let a=localStorage.getItem('theme');a==='light'||a==='dark'||a==='black'?setTheme(a):window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches?setTheme('dark'):setTheme('light')}else''==='light'||''==='dark'||''==='black'?(setTheme(''),saveTheme('')):(saveTheme('auto'),window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches?setTheme('dark'):setTheme('light'));let metaColors={light:'#f8f8f8',dark:'#252627',black:'#000000'};getMeta('theme-color').content=metaColors[document.body.getAttribute('theme')]</script>
 <div id=back-to-top></div>
 <div id=mask></div><div class=wrapper><header class=desktop id=header-desktop>
@@ -47,7 +27,7 @@ git commit -m &#34;...&#34; ⇒ 備份，並為這次的備份寫上備註，-m�
 <a href=/ title="White Code">White Code</a>
 </div>
 <div class=menu>
-<div class=menu-inner><a class=menu-item href=/posts/> Posts </a><a class=menu-item href=/tags/> Tags </a><a class=menu-item href=/categories/> Categories </a><span class="menu-item delimiter"></span><a href=# onclick=return!1 class="menu-item theme-switch" title="Switch Theme">
+<div class=menu-inner><a class=menu-item href=/posts/> Posts </a><a class=menu-item href=/tags/> Tags </a><a class=menu-item href=/categories/> Categories </a><span class="menu-item delimiter"></span><a href=# onclick=return!1 class="menu-item theme-switch" title>
 <i class="fas fa-adjust fa-fw"></i>
 </a></div>
 </div>
@@ -62,7 +42,7 @@ git commit -m &#34;...&#34; ⇒ 備份，並為這次的備份寫上備註，-m�
 <span></span><span></span><span></span>
 </div>
 </div>
-<div class=menu id=menu-mobile><a class=menu-item href=/posts/ title>Posts</a><a class=menu-item href=/tags/ title>Tags</a><a class=menu-item href=/categories/ title>Categories</a><a href=# onclick=return!1 class="menu-item theme-switch" title="Switch Theme">
+<div class=menu id=menu-mobile><a class=menu-item href=/posts/ title>Posts</a><a class=menu-item href=/tags/ title>Tags</a><a class=menu-item href=/categories/ title>Categories</a><a href=# onclick=return!1 class="menu-item theme-switch" title>
 <i class="fas fa-adjust fa-fw"></i>
 </a></div>
 </div>
@@ -75,17 +55,17 @@ git commit -m &#34;...&#34; ⇒ 備份，並為這次的備份寫上備註，-m�
 </div>
 <main class=main>
 <div class=container><div class=toc id=toc-auto>
-<h2 class=toc-title>Contents</h2>
+<h2 class=toc-title></h2>
 <div class=toc-content id=toc-content-auto></div>
 </div><script>document.getElementsByTagName("main")[0].setAttribute("pageStyle","normal")</script><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Git</h1><div class=post-meta>
 <div class=post-meta-line>
-<span class=post-author><i class="author fas fa-user-circle fa-fw"></i><a href=/ title=Author rel=author class=author>Author</a>
+<span class=post-author><i class="author fas fa-user-circle fa-fw"></i><a href=/ title=Author rel=author class=author></a>
 </span></div>
-<div class=post-meta-line><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime=2021-11-09>2021-11-09</time>&nbsp;<i class="far fa-edit fa-fw"></i>&nbsp;<time datetime=2021-11-09>2021-11-09</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;699 words&nbsp;
-<i class="far fa-clock fa-fw"></i>&nbsp;4 minutes&nbsp;</div>
+<div class=post-meta-line><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime=2021-11-09>2021-11-09</time>&nbsp;<i class="far fa-edit fa-fw"></i>&nbsp;<time datetime=2021-11-09>2021-11-09</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;&nbsp;
+<i class="far fa-clock fa-fw"></i>&nbsp;&nbsp;</div>
 </div><div class="details toc" id=toc-static kept>
 <div class="details-summary toc-title">
-<span>Contents</span>
+<span></span>
 <span><i class="details-icon fas fa-angle-right"></i></span>
 </div>
 <div class="details-content toc-content" id=toc-content-static><nav id=TableOfContents>
@@ -613,7 +593,7 @@ origin  https://github.com/... <span class=o>(</span>push<span class=o>)</span>
 <div class=post-info>
 <div class=post-info-line>
 <div class=post-info-mod>
-<span>Updated on 2021-11-09</span>
+<span></span>
 </div>
 <div class=post-info-license></div>
 </div>
@@ -627,22 +607,22 @@ origin  https://github.com/... <span class=o>(</span>push<span class=o>)</span>
 <div class=post-info-more>
 <section class=post-tags></section>
 <section>
-<span><a href=javascript:void(0); onclick=window.history.back()>Back</a></span>&nbsp;|&nbsp;<span><a href=/>Home</a></span>
+<span><a href=javascript:void(0); onclick=window.history.back()></a></span>&nbsp;|&nbsp;<span><a href=/></a></span>
 </section>
 </div>
 <div class=post-nav><a href=/posts/first_post/ class=prev rel=prev title=First_post><i class="fas fa-angle-left fa-fw"></i>First_post</a></div>
 </div>
 </article></div>
 </main><footer class=footer>
-<div class=footer-container><div class=footer-line>Powered by <a href=https://gohugo.io/ target=_blank rel="noopener noreffer" title="Hugo 0.89.2">Hugo</a> | Theme - <a href=https://github.com/HEIGE-PCloud/DoIt target=_blank rel="noopener noreffer" title="DoIt 0.2.13"><i class="far fa-edit fa-fw"></i> DoIt</a>
+<div class=footer-container><div class=footer-line>
 </div><div class=footer-line><i class="far fa-copyright fa-fw"></i><span itemprop=copyrightYear>2021</span><span class=author itemprop=copyrightHolder>&nbsp;<a href=/ target=_blank rel="noopener noreferrer"></a></span></div>
 </div></footer></div>
-<div id=fixed-buttons><a href=#back-to-top id=back-to-top-button class=fixed-button title="Back to Top">
+<div id=fixed-buttons><a href=#back-to-top id=back-to-top-button class=fixed-button title>
 <i class="fas fa-arrow-up fa-fw"></i>
-</a><a href=# id=view-comments class=fixed-button title="View Comments">
+</a><a href=# id=view-comments class=fixed-button title>
 <i class="fas fa-comment fa-fw"></i>
 </a>
 </div><div class=assets><script type=text/javascript src=/lib/lazysizes/lazysizes.min.js></script><script type=text/javascript src=/lib/topbar/topbar.min.js></script><script type=text/javascript src=/lib/pjax/pjax.min.js></script><script type=text/javascript src=/js/theme.min.js></script></div>
-<div class=pjax-assets><script type=text/javascript src=/lib/clipboard/clipboard.min.js></script><script type=text/javascript>window.config={code:{copyTitle:"Copy to clipboard",maxShownLines:10},comment:{}}</script></div>
+<div class=pjax-assets><script type=text/javascript src=/lib/clipboard/clipboard.min.js></script><script type=text/javascript>window.config={code:{copyTitle:"",maxShownLines:10},comment:{}}</script></div>
 </body>
 </html>
