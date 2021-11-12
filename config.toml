@@ -1,8 +1,8 @@
 baseURL = "https://cycsd.github.io/"
 # [en, zh-cn, fr, ...] determines default content language
-defaultContentLanguage = "zh-tw"
+defaultContentLanguage = "en"
 # language code
-languageCode = "zh-TW"
+languageCode = "en"
 hasCJKLanguage = true
 title = "White Code"
 
